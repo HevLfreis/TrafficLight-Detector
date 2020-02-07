@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     path = os.path.abspath('..')+'//light//'
     for f in os.listdir(path):
-        print f
+        print (f)
         if f.endswith('.jpg') or f.endswith('.JPG'):
             detect(path, f)
 
